@@ -22,11 +22,5 @@
 		"bower.json",
 		"component.json",
 		"package.json"
-	],
-	"styles": [
-		"dist",
-		"dist/web-font/style.css",
-		"license",
-		"readme.md"
 	]
 }
