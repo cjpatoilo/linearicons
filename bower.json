@@ -1,0 +1,26 @@
+{
+	"name": "linearicons",
+	"version": "1.0.0",
+	"description": "Linearicons is the highest quality set of line icons, matching with minimalist UI designs in iOS.",
+	"homepage": "https://linearicons.com/free",
+	"repository": "cjpatoilo/linearicons",
+	"license": "CC BY-SA 4.0",
+	"author": "Perxis <me@perxis.com>",
+	"main": "dist/web-font/style.css",
+	"keywords": [
+		"icon",
+		"minimalist",
+		"svg",
+		"web-font"
+	],
+	"ignore": [
+		".editorconfig",
+		".github",
+		".gitignore",
+		".npmignore",
+		".travis.yml",
+		"bower.json",
+		"component.json",
+		"package.json"
+	]
+}

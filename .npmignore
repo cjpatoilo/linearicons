@@ -1,0 +1,8 @@
+.editorconfig
+.github
+.gitignore
+.npmignore
+.travis.yml
+bower.json
+component.json
+package.json
