@@ -1,4 +1,5 @@
-# Linearicons Free
+<a align="center" href="https://linearicons.com/free"><img width="100%" src="https://cloud.githubusercontent.com/assets/1542831/20608347/df37cf60-b25f-11e6-854b-ebfa829044d4.png" alt="Linearicons Free"></a>
+
 > Linearicons is the highest quality set of line icons, matching with minimalist UI designs in iOS. This icon pack was designed on a 20&times;20 grid with a lot of care, resulting in crisp and pixel perfect icons. Both free and premium versions are easy to use in any platform including iOS and Android.
 
 ## Cheat Sheet (170 Icons)
