@@ -1,6 +1,6 @@
 {
 	"name": "linearicons",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Linearicons is the highest quality set of line icons, matching with minimalist UI designs in iOS.",
 	"homepage": "https://linearicons.com/free",
 	"repository": "cjpatoilo/linearicons",
@@ -20,7 +20,6 @@
 		".npmignore",
 		".travis.yml",
 		"bower.json",
-		"component.json",
 		"package.json"
 	]
 }
