@@ -15,7 +15,7 @@ We would love for you to contribute to **Linearicons** and help us make this eve
 
 ## Open an Issue
 
-[Open an Issue](https://github.com/cjpatoilo/linearicons/issues/new) to report any problems or improvements. When necessary, use some online service like a [JS Bin](https://jsbin.com), [JSFiddle](https://jsfiddle.net/), [Codepen](http://codepen.io/), to show the problem. Be sure to include some description to explain the problem.
+[Open an Issue](../../../issues/new) to report any problems or improvements. When necessary, use some online service like a [JS Bin](https://jsbin.com), [JSFiddle](https://jsfiddle.net/), [Codepen](http://codepen.io/), to show the problem. Be sure to include some description to explain the problem.
 
 
 ## Submit a Pull Request
@@ -70,4 +70,4 @@ Help us keep **Linearicons** open and inclusive. Please read and follow our thou
 
 ## License
 
-By contributing your code, you agree to license your contribution under the [MIT license](https://github.com/cjpatoilo/linearicons#license).
+By contributing your code, you agree to license your contribution under the [MIT license](../license).
