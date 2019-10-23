@@ -22,10 +22,40 @@
 		"bower.json",
 		"package.json"
 	],
-	"engines": {
-		"node": ">=6.0.0"
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^2.4.0",
+		"boeing": "latest",
+		"husky": "^3.0.9",
+		"inject-ga": "^0.2.4",
+		"lint-staged": "^9.4.2",
+		"marshmallow": "latest",
+		"nyc": "^14.1.1",
+		"prettier-standard": "^15.0.1",
+		"rimraf": "^3.0.0"
 	},
 	"scripts": {
-		"test": "echo `Successfully tested!`"
+		"deploy": "marshmallow -o docs -i artwork.psd -f -m && inject-ga docs/index.html -o docs/index.html -c 'UA-24389952-13' && boeing docs && rimraf docs",
+		"lint": "prettier-standard --check",
+		"test": "nyc ava"
+	},
+	"engines": {
+		"node": "^12.13.0"
+	},
+	"prettier": {
+		"jsxSingleQuote": false,
+		"trailingComma": "all"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged",
+			"pre-push": "npm run deploy"
+		}
+	},
+	"lint-staged": {
+		"src/**/*": [
+			"prettier-standard --format",
+			"git add"
+		]
 	}
 }
