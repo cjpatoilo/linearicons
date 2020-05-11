@@ -40,7 +40,7 @@
 		"test": "nyc ava"
 	},
 	"engines": {
-		"node": "^12.13.0"
+		"node": ">=12.13.0"
 	},
 	"prettier": {
 		"jsxSingleQuote": false,
